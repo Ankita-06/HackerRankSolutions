@@ -1,3 +1,4 @@
+# Define functions
 def median(size, values):
     if size % 2 == 0:
         median = (values[int(size/2)-1] + values[int(size/2)]) / 2
