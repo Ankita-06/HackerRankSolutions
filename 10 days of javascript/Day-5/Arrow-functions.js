@@ -33,6 +33,13 @@ function modifyArray(nums) {
     if (n%2==0){
         return n *2
     }
+        
+ function main() {
+    const n = +(readLine());
+    const a = readLine().split(' ').map(Number);
+    
+    console.log(modifyArray(a).toString().split(',').join(' '));
+}
     else {
         return n * 3
     }
