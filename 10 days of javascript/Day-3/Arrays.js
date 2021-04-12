@@ -41,8 +41,6 @@ function getSecondLargest(nums) {
         second = nums[i];
     }
 }
-
-
 return second;
 }
 
