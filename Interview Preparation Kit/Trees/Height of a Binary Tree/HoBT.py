@@ -42,6 +42,7 @@ class Node:
           self.left = None  
           self.right = None 
            
+
        // this is a node of the tree , which contains info as data, left , right
 '''
 from collections import deque
@@ -65,3 +66,15 @@ def height(root):
         if(len(n2)!=0):
             n.append(n2)
     return len(n)-1
+
+
+
+tree = BinarySearchTree()
+t = int(input())
+
+arr = list(map(int, input().split()))
+
+for i in range(t):
+    tree.create(arr[i])
+
+print(height(tree.root))
